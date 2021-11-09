@@ -1,14 +1,16 @@
-* {
-    font-family: 'Lucida Sans';
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-
 }
+
+
 
 .container {
     width: 100%;
     max-width: 1180px;
     margin: auto; /* center */
 }
+
 
 .row {
     margin-top: 50px;
@@ -27,12 +29,34 @@
 }
 
 .isi {
-    border: 1px solid black;
+    border: 1px solid gray;
     padding: 30px;
     border-radius: 10px;
     font-weight: bold;
     font-size: 14pt;
     cursor: pointer;
+    text-align: left;
+}
+
+.gambar-pay {
+    background-image: url('image/pay.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.gambar-reload {
+    background-image: url('image/reload.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.gambar-addon {
+    background-image: url('image/get.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 
@@ -40,7 +64,6 @@
     .container {
         max-width: 780px;
     }
-
     .col {
         width: 100%;
     }
